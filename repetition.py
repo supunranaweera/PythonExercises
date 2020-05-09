@@ -85,3 +85,58 @@ r1 = range(5)
 print(r1[0], r1[1], r1[2], r1[3], r1[4])
 
 '''
+
+
+
+#while loop 
+
+count = 0
+
+while count < 5:
+    print(count)
+    count += 1       # += is  a shorter way of writing count = count + 1
+
+
+
+count = 0 
+
+while count <= 5:
+    count += 1
+    if count % 2:
+        continue 
+    print(count)
+
+
+print("while loop ended")
+
+
+
+# loop with else clause 
+
+for i in range(1, 10):
+    print("i = ", i)
+else:
+    print("loop fully completed")
+
+
+print("done")
+
+
+
+
+# print only even numbers
+
+
+
+for i in range(1, 10):
+
+    if i == 5 > 0:
+
+        break 
+
+    print("i = ", i)
+else:
+    print("loop fully completed")
+
+
+print("done")
